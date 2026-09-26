@@ -4,10 +4,10 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-BOT_TOKEN = os.getenv("BOT_TOKEN")
+BOT_TOKEN = os.getenv("8416010350:AAHvoGxRI4mgC1GE0P7nL4r5DKDKDkc_5sM")
 ALLOWED_USER_ID = int(os.getenv("ALLOWED_USER_ID", "8373993954"))
 
-OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
+OPENROUTER_API_KEY = os.getenv("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")
 OPENROUTER_MODEL = "inclusionai/ling-3.0-flash-fin:free"
 
 TELEGRAM_API_ID = int(os.getenv("TELEGRAM_API_ID", "0"))
